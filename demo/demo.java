@@ -70,7 +70,7 @@ public class Main {
         ArrayList<BasicNameValuePair> basicNameValuePairs = new ArrayList<>();
         params.forEach((k,v) -> basicNameValuePairs.add(new BasicNameValuePair(k, v)));
         System.out.println(JSON.toJSONString(params));
-        String resultJson = doPost("https://openapi.chaindown.com/open/api/create_order", basicNameValuePairs );
+        String resultJson = doPost("https://openapi.bzex.co/open/api/create_order", basicNameValuePairs );
         System.out.println(resultJson);
     }
  

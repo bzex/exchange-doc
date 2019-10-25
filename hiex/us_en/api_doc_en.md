@@ -118,7 +118,7 @@ sign=md5(api_key1234567time12312312312137789654)
 
 ## <span id="a6">Request Process</span>
 
-The root URL for REST access：``` https://openapi.hiex.pro ```
+The root URL for REST access：``` https://openapi.bzex.co ```
 
 ###  <span id="a7">Request</span>
 All requests are based on Https protocol, contentType in the request header must be uniformly set as: ‘application/json’.
@@ -1663,7 +1663,7 @@ public class Main {
         params.put("sign", sign);
 
 /** http request */
-        String resultJson = get("https://openapi.hiex.pro/open/api/get_trades", params);
+        String resultJson = get("https://openapi.bzex.co/open/api/get_trades", params);
         System.out.println(resultJson);
     }
 

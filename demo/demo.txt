@@ -1,7 +1,7 @@
 
 ######################################### curl版本 #########################################
 curl -X POST \
-  https://openapi.momoex.com/open/api/create_order \
+  https://openapi.bzex.co/open/api/create_order \
   -H 'Postman-Token: 957fef75-23a3-b30b-06b1-189676efc5ca' \
   -d 'api_key=441601d5be9e33df61149d7d0469d7d0&price=5&side=BUY&sign=06b52a16fcba335c52d713a47b5c600f&symbol=btcusdt&time=1566445997732&type=1&volume=1'
 
@@ -14,7 +14,7 @@ OkHttpClient client = new OkHttpClient();
 MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
 RequestBody body = RequestBody.create(mediaType, "api_key=441601d5be9e33df61149d7d0469d7d0&price=5&side=BUY&sign=06b52a16fcba335c52d713a47b5c600f&symbol=btcusdt&time=1566445997732&type=1&volume=1");
 Request request = new Request.Builder()
-  .url("https://openapi.momoex.com/open/api/create_order")
+  .url("https://openapi.bzex.co/open/api/create_order")
   .post(body)
   .addHeader("Content-Type", "application/x-www-form-urlencoded")
   .build();
@@ -28,7 +28,7 @@ Response response = client.newCall(request).execute();
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://openapi.momoex.com/open/api/create_order",
+  CURLOPT_URL => "https://openapi.bzex.co/open/api/create_order",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -58,7 +58,7 @@ if ($err) {
 ######################################### python版本 #########################################
 import http.client
 
-conn = http.client.HTTPConnection("openapi,momoex,com")
+conn = http.client.HTTPConnection("openapi,bzex,co")
 
 payload = "api_key=441601d5be9e33df61149d7d0469d7d0&price=5&side=BUY&sign=06b52a16fcba335c52d713a47b5c600f&symbol=btcusdt&time=1566445997732&type=1&volume=1"
 
@@ -89,7 +89,7 @@ import (
 
 func main() {
 
-  url := "https://openapi.momoex.com/open/api/create_order"
+  url := "https://openapi.bzex.co/open/api/create_order"
 
   payload := strings.NewReader("api_key=441601d5be9e33df61149d7d0469d7d0&price=5&side=BUY&sign=06b52a16fcba335c52d713a47b5c600f&symbol=btcusdt&time=1566445997732&type=1&volume=1")
 

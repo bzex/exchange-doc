@@ -120,7 +120,7 @@ sign=md5(api_key1234567time12312312312137789654)
 
 ## <span id="a6">请求交互</span>
 
-REST访问的根URL：``` https://openapi.hiex.pro ```
+REST访问的根URL：``` https://openapi.bzex.co ```
 
 ###  <span id="a7">请求</span>
 所有请求基于Https协议，请求头信息中Content-Type 需要统一设置为:'application/json’。
@@ -1650,7 +1650,7 @@ public class Main {
         params.put("sign", sign);
 
         /** http请求 */
-        String resultJson = get("https://openapi.hiex.pro/open/api/get_trades", params);
+        String resultJson = get("https://openapi.bzex.co/open/api/get_trades", params);
         System.out.println(resultJson);
     }
 
