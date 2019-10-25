@@ -1,6 +1,6 @@
 #  HIEX官方API文档
 
-#### HIEX交易所开发文档([English Docs](https://github.com/exchange-doc/api/blob/master/hiex/us_en/api_doc_en.md))
+#### HIEX交易所开发文档([English Docs](https://github.com/bzex/exchange-doc/blob/master/hiex/us_en/api_doc_en.md))
 - [介绍](#Introduction)
 - [开始使用](#startToUse)
 - [API接口加密验证](#a1)

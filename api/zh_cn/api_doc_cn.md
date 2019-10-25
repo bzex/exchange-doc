@@ -1,6 +1,6 @@
 #  Exchange官方API文档
 
-#### Exchange交易所开发文档([English Docs](https://github.com/exchange-doc/api/blob/master/api/us_en/api_doc_en.md))
+#### Exchange交易所开发文档([English Docs](https://github.com/bzex/exchange-doc/blob/master/api/us_en/api_doc_en.md))
 - [介绍](#Introduction)
 - [开始使用](#startToUse)
 - [API接口加密验证](#a1)
@@ -17,7 +17,7 @@
         - [数字](#b3)
         - [限流 - REST API](#b4)
 - [业务API参考](#b5)
-  - [open-api](#b6) ([调用 Demo](https://github.com/exchange-doc/api/blob/master/demo/demo.txt))
+  - [open-api](#b6) ([调用 Demo](https://github.com/bzex/exchange-doc/blob/master/demo/demo.txt))
     -   [资产余额](#1)
     -   [获取全部委托](#2)
     -   [获取全部成交记录](#3)
@@ -91,7 +91,7 @@ API Key 和 Secret Key将由随机生成和提供
 ## <span id="a4">签名</span>
 
 生成待签名的字符串
-    -   [open-api Demo](https://github.com/exchange-doc/api/blob/master/demo/demo.java)
+    -   [open-api Demo](https://github.com/bzex/exchange-doc/blob/master/demo/demo.java)
     
 1、先将参数以其参数名的字典序升序进行排序
 
